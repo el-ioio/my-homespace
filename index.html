@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My HomeSpace</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
     <header>
+        <br>
         <nav>
             <p>Home</p>
             <p>About us</p>
@@ -14,37 +16,49 @@
             <p>Service</p>
             <p>Contact</p>
         </nav>
-        <h1>MyHomeSpace</h1>
+        <h1>My<div id="home">Home</div>Space</h1>
     </header>
     <main>
-        <img src="./assets/image/carousel/carousel-1.jpg" alt="">
-        <section>
-            <article>
-                <h2>Last Works</h2>
-                <img src="./assets/image/pic1.jpg" alt="">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure explicabo unde nulla at non maiores qui placeat harum voluptatum, molestiae laudantium sunt assumenda architecto inventore deserunt. Debitis odit nulla quas.</p>
-                <a href="#">
-                    <img src="./assets/image/plus_btn.png" alt="">
-                </a>
+        <img src="./assets/image/carousel/carousel-1.jpg" alt="Une chambre avec un lit un bureau et trois chaises" id="premierephoto">
+        <section id="premieresection">
+            <article id="lastworks">
+                <div id="bordeau">
+                    <h2>Last Works</h2>
+                </div>
+                <div id="gris1">
+                    <img src="./assets/image/pic1.jpg" alt="Un salon avec cheminée et canapés" id="photosalon">
+                    <p id="texte">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure explicabo unde nulla at non maiores qui placeat harum voluptatum, molestiae laudantium sunt assumenda architecto inventore deserunt.</p>
+                    <a href="#">
+                        <img src="./assets/image/plus_btn.png" alt="Lien vers Last Works" id="petitplus">
+                    </a>
+                </div>
             </article>
             <article>
-                <h2>Products</h2>
-                <img src="./assets/image/pic2.jpg" alt="">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt animi maiores autem corporis voluptas a temporibus quisquam impedit, exercitationem illo blanditiis eaque quasi cum fugit laborum repellat nobis corrupti. Suscipit!</p>
-                <a href="#">
-                    <img src="./assets/image/plus_btn.png" alt="">
-                </a>
+                <div id="bordeau">
+                    <h2>Products</h2>
+                </div>
+                <div id="gris2">
+                    <img src="./assets/image/pic2.jpg" alt="Un mur orange avec un canapé rouge des vases et une lampe blache" id="photosalon"
+                    <p id="texte">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit cupiditate porro ad quibusdam? Molestias deserunt aut, exercitationem ullam quo ea quasi, minus libero voluptatum in maiores error blanditiis, aperiam eius?</p>
+                    <a href="#">
+                        <img src="./assets/image/plus_btn.png" alt="Lien vers Products" id="petitplus">
+                    </a>
+                </div>
             </article>
-            <article>
-                <h2>Service</h2>
-                <img src="./assets/image/pic3.jpg" alt="">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, pariatur quia omnis eos natus deserunt dolores repellendus atque porro aliquid quis ea inventore sit, voluptate eum. Est officia ipsum quia.</p>
-                <a href="#">
-                    <img src="./assets/image/plus_btn.png" alt="">
-                </a>
+            <article id="service">
+                <div id="bordeau">
+                    <h2>Service</h2>
+                </div>
+                <div id="gris3">
+                    <img src="./assets/image/pic3.jpg" alt="Une chambre blanche avec deux fauteuils rouge" id="photosalon">
+                    <p id="texte">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, pariatur quia omnis eos natus deserunt dolores repellendus atque porro aliquid quis ea inventore sit, voluptate eum. Est officia ipsum quia.</p>
+                    <a href="#">
+                        <img src="./assets/image/plus_btn.png" alt="Lien vers Service" id="petitplus">
+                    </a>
+                </div>
             </article>
         </section>
-        <section>
+        <section id="deuxiemesection">
             <article>
                 <h3>Testimonials</h3>
                 <ul>
@@ -59,27 +73,35 @@
                 <h3>Premium service</h3>
                 <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, necessitatibus ipsam, numquam quaerat impedit autem incidunt officia asperiores maiores voluptate magni quis ab odio minus eos exercitationem quasi error amet?</p>
-                <a href="#">Read more</a>
+                <div id="readmore">
+                    <a href="#">Read more</a>
+                </div>
             </article>
             <article>
                 <h3>About us</h3>
                 <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga ullam ab fugiat laboriosam adipisci accusantium vel amet quisquam itaque eum eveniet.</span>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente cupiditate, nemo perspiciatis consequatur voluptate deserunt tempora hic architecto aut, natus et officia alias quaerat a neque ea soluta at quod.</p>
-                <a href="#">Read more</a>
+                <div id="readmore">
+                    <a href="#">Read more</a>
+                </div>
             </article>
         </section>
     </main>
+    <hr>
+    <br>
     <footer>
-        <small>Desing by <img src="./assets/image/logo.png" alt=""></small>
-        <a href="#">
-            <img src="./assets/image/facebook.png" alt="">
-        </a>
-        <a href="#">
-            <img src="./assets/image/twitter.png" alt="">
-        </a>
-        <a href="#">
-            <img src="./assets/image/google.png" alt="">
-        </a>
+        <small>Desing by <img src="./assets/image/logo.png" alt="Logo Ispace" id="logoispace"></small>
+        <div id="liens">
+            <a href="https://www.facebook.com/?locale=fr_FR" target="_blank">
+                <img src="./assets/image/facebook.png" alt="Logo Facebook">
+            </a>
+            <a href="https://twitter.com/?lang=fr" target="_blank">
+                <img src="./assets/image/twitter.png" alt="Logo Twitter">
+            </a>
+            <a href="https://www.google.fr" target="_blank">
+                <img src="./assets/image/google.png" alt="Logo Google">
+            </a>
+        </div>
     </footer>
 </body>
 </html>

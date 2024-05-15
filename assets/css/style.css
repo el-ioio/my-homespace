@@ -1,0 +1,111 @@
+body {
+    width: 1160px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    font-family: sans-serif;
+}
+
+#premieresection {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+#deuxiemesection {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+#liens {
+    display: flex;
+    justify-content: right;
+    margin-right: 10px;
+}
+
+#home {
+    color: #900c3f;
+}
+
+#logoispace {
+    width: 3.5%;
+    height: 3.5%;
+}
+
+#bordeau {
+    background-color: #900c3f;
+}
+
+#gris1 {
+    background-color: grey;
+    height: 85.5%;
+}
+
+#gris2 {
+    background-color: grey;
+    height: 83.5%;
+}
+
+#gris3 {
+    background-color: grey;
+    height: 85.5%;
+}
+
+#texte {
+    color: white;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#readmore {
+    background-color: grey;
+    width: 20%;
+    height: 5%;
+}
+
+html {
+    background-color: grey;
+}
+
+#premierephoto {
+    width: 1160px;
+    height: auto;
+}
+
+#lastworks {
+    margin-left: 10px;
+}
+
+#service {
+    margin-right: 10px;
+}
+
+#photosalon {
+    width: 100%;
+}
+
+#petitplus {
+    display: block;
+    float: right;
+}
+
+small {
+    margin-left: 10px;
+}
